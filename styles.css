@@ -1,0 +1,60 @@
+body {
+  background-color:   tan;
+}
+
+.navigator-bar {
+  background-color: black;
+  font-family: Verdana, sans-serif;
+  font-weight: bold; /* Это свойство делает текст в теге <a> жирным */
+  color: white;
+  font-size: 30px;
+  padding: 15px 10px 25px 50px;
+  text-align: left;
+}
+
+.navigator-bar .right-text {
+  font-family: Verdana, sans-serif;
+  float: right;
+  padding: 0 13px;
+  vertical-align: middle;
+  display: table-cell;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.navigator-bar .right-text li {
+  display: inline; /* Делаем элементы списка строчными */
+  margin-right: 30px; /* Добавляем отступ между элементами */
+}
+
+.highlight-link {
+  color: #ffffff; /* Цвет ссылки по умолчанию */
+  text-decoration: none; /* Убираем подчеркивание ссылки */
+  transition: color 0.3s; /* Добавляем плавное изменение цвета */
+}
+
+.highlight-link:hover {
+  color: #f00; /* Цвет ссылки при наведении курсора */
+}
+
+.text {
+  font-family:        Verdana sans-serif;
+  font-size:          medium;
+  margin-bottom:      5%;
+  margin-left:        10%;
+  margin-right:       10%;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+.container img {
+  margin-right: 20px; /* Расстояние между картинкой и текстом */
+
+}
+
+.container p {
+  align-self: flex-start; /* Выравнивание текста описания сверху */
+}
